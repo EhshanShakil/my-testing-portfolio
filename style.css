@@ -10,6 +10,7 @@ h1{
     font-size: 50px;
 }
 .welcome{
+    padding-top: 0%;
     float: left; 
     background-image: url(images/top-banner.png); 
     background-repeat: no-repeat;
@@ -22,10 +23,11 @@ h1{
     padding-left: 5%;
     padding-right: 2%;
     font-size: 25px;
-    height: 500px;
+    height: 600px;
 }
 img{
     width: 100%;
+    box-shadow: 10px 10px 40px blue;
 }
 a{
     text-decoration: none;
@@ -35,6 +37,12 @@ a{
     font-weight: 700;
     border-radius: 5px;
 }
+a.hov:hover{
+    background-image: linear-gradient(red pink);
+    color: white;
+    transition: all 0.5s;
+
+}
 h2{
     font-size: 40px;
 }
@@ -43,6 +51,22 @@ h2{
     background-position: right;
     background-repeat: no-repeat;
 }
-.experiance{
-    padding-top: 120px;
+.border{
+    box-shadow: 10px 10px 40px gray;
+    height: 250%
+    ;
+    
+}
+.last{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 2%;
+    font-size: 25px;
+    margin-bottom: 150px;
+    padding-right: 10px;
+}
+#close{
+    padding-left: 50px;
+    margin-left: 100px;
 }
